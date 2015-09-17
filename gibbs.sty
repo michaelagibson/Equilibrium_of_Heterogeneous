@@ -1,0 +1,191 @@
+\usepackage[margin=1.0in]{geometry} 
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{parskip}
+\usepackage{mdframed}
+\usepackage{gensymb}
+%\usepackage{ntheorem}
+%\usepackage{answers}
+\usepackage{lipsum}
+%\usepackage{changepage}
+%\usepackage{xparse}
+\usepackage{enumerate}
+%\usepackage{xcolor}
+\usepackage[final]{pdfpages}
+\usepackage{fancyhdr}
+
+\usepackage{titlesec}
+\usepackage{tikz}\usetikzlibrary{shapes.misc}
+%\newcommand\titlebar{%
+%\tikz[baseline,trim left=3.1cm,trim right=3cm] {
+%    \fill [gray!25] (2.5cm,-1ex) rectangle (\textwidth+3.1cm,2.5ex);
+%   \node [
+%        fill=gray!60!white,
+%       anchor= base east,
+%       rounded rectangle,
+%       minimum height=3.5ex] at (3cm,0) {
+%       \textbf{\thesection}
+%   };
+%}%
+%}
+%\newcommand\subtitlebar{%
+%\tikz[baseline,trim left=3.1cm,trim right=3cm] {
+   % \fill [gray!10] (2.5cm,-1ex) rectangle (\textwidth+3.1cm,2.5ex);
+    %\node [
+       % fill=gray!40!white,
+        %anchor= base east,
+        %rounded rectangle,
+        %minimum height=3.5ex] at (3cm,0) {
+        %\textbf{\thesection.\thesubsection}
+    %};
+%}%
+%}
+%\titleformat{\section}{\LARGE \newpage}{\titlebar}{0.1cm}{}
+%\renewcommand*{\thesection}{\arabic{section}}
+
+%\titleformat{\subsection}{\large}{\subtitlebar}{0.1cm}{}
+%\renewcommand*{\thesubsection}{\arabic{subsection}}
+
+%\newenvironment{class}{before}{after}
+%%\newcommand{\bold}{\textbf}
+\newcommand{\un}{\underline}
+\newcommand{\2}{$_{2}$}
+\newcommand{\3}{$_{3}$}
+\newcommand{\4}{$_{4}$}
+\newcommand{\5}{$_{5}$}
+\newcommand{\two}{$^{2}$}
+\newcommand{\three}{$^{3}$}
+\newcommand{\four}{$^{4}$}
+\newcommand{\five}{$^{5}$}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\ceq}{\end{equation}}
+\newcommand{\bea}{\begin{align*}}
+\newcommand{\cea}{\end{align*}}
+\newcommand{\eqs}{\begin{equation}\begin{aligned}}
+\newcommand{\eqe}{\end{aligned}\end{equation}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% edX commands understood by latex2edx.py
+%\NewDocumentEnvironment{edXcourse}{m m o}{{\noindent\Large\bf edX Course: {#1}} \hfill Display Name: \texttt{#2} }{}
+%
+%%MODIFYING THIS
+%\NewDocumentEnvironment{edXchapter}{m o}{\chapter{#1} \Opensolutionfile{solutionfilehandle}[\thechapter]}{\Closesolutionfile{solutionfilehandle}}
+%
+%% =====================================================
+%% LaTeX below for edXsection & edXvertical from Darmofal's edX_macros.tex
+%% Set-up edX-related counters
+%\newcommand{\sectionName}{Not Assigned Yet}
+%\newcommand{\verticalName}{Not Assigned Yet}
+%
+%% =====================================================
+%% OLD edXsection:
+%%\NewDocumentEnvironment{edXsection}{m o}{\subsection{#1}}{}
+%\newenvironment{edXsection}[1]
+%{ % Before begin
+%\refstepcounter{section}
+%\renewcommand{\sectionName}{#1}
+%\phantomsection
+%\addcontentsline{toc}{section}{\thesection \space  #1}
+%}
+%{ % After end
+%}
+%
+%% =====================================================
+%% OLD edXvertical:
+%%\NewDocumentEnvironment{edXvertical}{m o}{\subsection*{#1}\vspace{-2mm}}{}
+%\newboolean{edXinvertical}
+%\setboolean{edXinvertical}{false}
+%
+%\newenvironment{edXvertical}[1]
+%{ % Before begin
+%\refstepcounter{subsection}
+%\setboolean{edXinvertical}{true}
+%\renewcommand{\verticalName}{#1}
+%%\clearpage
+%\phantomsection
+%\addcontentsline{toc}{subsection}{\thesubsection \space Problem: {#1}}
+%{\color{red}\bf
+%Section \thesection: \sectionName \\
+%%An edXvertical problem\\
+%{#1} \\
+%}}
+%{ % After end
+%\setboolean{edXinvertical}{false}
+%}
+%
+%% =====================================================
+%\NewDocumentEnvironment{edXshowhide}{m m o}{\begin{quote}{{\bf Showhide: #2 (ID: #1):}}}{\end{quote}}
+%\newenvironment{edXscript}{\noindent \underline{\texttt{Python code:}} \verbatim}{\endverbatim}
+%\newenvironment{edXanswer}{\verbatim}{\endverbatim}
+%\newenvironment{edXjavascript}{\verbatim}{\endverbatim}
+%
+%%MODIFYING THIS
+%\newenvironment{edXproblem}[2]{\vspace{1em} \begin{mdframed} \begin{problem}\normalfont}{\end{problem} \end{mdframed}\vspace{1em}}
+%
+%% =====================================================
+%% OLD edXtext:
+%%\newenvironment{edXtext}[1]{\subsubsection{{\bf #1}}}{}
+%\NewDocumentEnvironment{edXtext}{ m g }
+%{ % Before begin
+%\ifthenelse{\boolean{edXinvertical}}
+%{
+%{\color{red}\bf
+%%In edXvertical: \verticalName \\
+%}
+%}
+%{
+%\refstepcounter{subsection}
+%%\clearpage
+%\phantomsection
+%\addcontentsline{toc}{subsection}{\thesubsection \space {#1}}
+%{\color{red}\bf
+%Section \thesection: \sectionName} \\
+%}
+%{\color{red}\bf
+%\thesubsection: {#1} \\
+%}}
+%{ % After end
+%}
+%% =====================================================
+%\newenvironment{edXmath}{$$}{$$}
+%\newcommand\edXsolution[1]{#1}
+%\newcommand\edXinline[1]{#1}
+%\newcommand\edXinclude[1]{\texttt{#1}}
+%\newcommand\edXincludepy[1]{}
+%\newcommand\edXdndtex[1]{}
+%\newcommand\edXxml[1]{\texttt{#1}}
+%\newcommand\edXbr[1]{\par}
+%
+%%MODIFYING THIS
+%\newcommand\edXabox[1]{#1}
+%
+%
+%\newcommand\edXvideo[2]{To view the video ``#1'', please go to \url{https://www.youtube.com/watch?v=#2}}
+%\newcommand\edXdiscussion[2]{#1}
+%\newcommand{\edXinlinevideo}[1]
+%{\textbf{View the video \href{http://www.youtube.com/watch?v=#1}{at this YouTube link}}}
+%
+%\renewcommand\texttt[1]{\urlstyle{tt} \vurl{#1}}
+
+\pagestyle{fancy}
+\lhead{Equilibrium of Heterogeneous Substances}
+\rhead{Last edit: \today}
+
+%%Create header on every page
+%\RequirePackage[left=1in,right=1in,top=0.8in,bottom=1.4in]{geometry}
+%\RequirePackage{fancyhdr}
+%%\fancypagestyle{203x}
+%{
+%\setlength{\voffset}{0.6in}
+%\setlength{\textheight}{8in}
+%\setlength{\parskip}{0.2pc}
+%\fancyhead{}
+%\headheight = 3.6pc
+%\chead{\hrule\vspace{0.3pc}
+%{\fontsize{10}{12}{\scshape 3.20 Fall 2014: Thermodynamics} \hfill \today}\\[-3ex]
+%}}
+%\pagestyle{203x}

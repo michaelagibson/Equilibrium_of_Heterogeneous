@@ -1,0 +1,50 @@
+\contentsline {section}{\numberline {1}Preliminary Remark on the role of energy and entropy in the theory of thermodynamic systems}{4}{section.1}
+\contentsline {section}{\numberline {2}Criteria of Equilibrium and Stability}{4}{section.2}
+\contentsline {section}{\numberline {3}The Conditions of Equilibrium for Heterogeneous Masses in Contact when Uninfluenced by Gravity, Electricity, Distortion of the Solid Masses, or Capillary Tensions.}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Conditions relating to the Equilibrium between the initially existing Homogeneous Parts of the given Mass.}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Conditions relating to the possible Formation of Masses Unlike any Previously Existing.}{17}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Effect of Solidity of any Part of the given Mass.}{25}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Effect of Additional Equations of Condition.}{27}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Effect of a Diaphragm (Equilibrium of Osmotic Forces).}{28}{subsection.3.5}
+\contentsline {section}{\numberline {4}Definition and Properties of Fundamental Equations.}{30}{section.4}
+\contentsline {subsection}{\numberline {4.1}On the quantities $\psi $, $\chi $, $\xi $.}{33}{subsection.4.1}
+\contentsline {section}{\numberline {5}Potentials.}{36}{section.5}
+\contentsline {section}{\numberline {6}On Coexistent Phases of Matter.}{40}{section.6}
+\contentsline {subsection}{\numberline {6.1}Concerning $n +1$ Coexistent Phases.}{40}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Concerning Cases in which the Number of Coexistent Phases is less than $n+ 1$.}{42}{subsection.6.2}
+\contentsline {section}{\numberline {7}Internal Stability of Homogeneous Fluids as indicated by Fundamental Equations.}{43}{section.7}
+\contentsline {subsection}{\numberline {7.1}Stability in respect to Continuous Changes of Phase.}{47}{subsection.7.1}
+\contentsline {section}{\numberline {8}Geometrical Illustrations.}{56}{section.8}
+\contentsline {subsection}{\numberline {8.1}Surfaces in which the Composition of the Body represented is Constant.}{56}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Surfaces and Curves in which the Composition of the Body represented is Variable and its Temperature and Pressure are Constant.}{59}{subsection.8.2}
+\contentsline {section}{\numberline {9}Critical Phases.}{67}{section.9}
+\contentsline {section}{\numberline {10}On the Values of the Potentials when the Quantity of one of the Components is very small.}{72}{section.10}
+\contentsline {section}{\numberline {11}On Certain Points relating to the Molecular Constitution of Bodies.}{75}{section.11}
+\contentsline {section}{\numberline {12}The Conditions of Equilibrium for Heterogeneous Masses under the Influence of Gravity.}{80}{section.12}
+\contentsline {subsection}{\numberline {12.1}Method of treating the preceding problem, in which the elements of volume are regarded as fixed.}{83}{subsection.12.1}
+\contentsline {section}{\numberline {13}Fundamental Equations of Ideal Gases and Gas-Mixtures.}{86}{section.13}
+\contentsline {subsection}{\numberline {13.1}Inferences in regard to Potentials in Liquids and Solids.}{99}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Considerations relating to the Increase of Entropy due to the Mixture of Gases by Diffusion.}{100}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}The Phases of Dissipated Energy of an Ideal Gas-mixture with Components which are Chemically Related.}{102}{subsection.13.3}
+\contentsline {subsection}{\numberline {13.4}Gas-mixtures with Convertible Components.}{107}{subsection.13.4}
+\contentsline {section}{\numberline {14}The Conditions of Internal and External Equilibrium for Solids in contact with Fluids with regard to all possible States of Strain of the Solids.}{118}{section.14}
+\contentsline {subsection}{\numberline {14.1}Fundamental Equations for Solids.}{133}{subsection.14.1}
+\contentsline {subsection}{\numberline {14.2}Concerning Solids which absorb Fluids.}{144}{subsection.14.2}
+\contentsline {section}{\numberline {15}Influence of Surfaces of Discontinuity upon the Equilibrium of Heterogeneous Masses.---Theory of Capillarity.}{148}{section.15}
+\contentsline {subsection}{\numberline {15.1}Fundamental Equations for Surfaces of Discontinuity between Fluid Masses.}{156}{subsection.15.1}
+\contentsline {subsection}{\numberline {15.2}On the Experimental Determination of Fundamental Equations for Surfaces of Discontinuity between Fluid Masses.}{159}{subsection.15.2}
+\contentsline {subsection}{\numberline {15.3}Fundamental Equations for Plane Surfaces of Discontinuity between Fluid Masses.}{160}{subsection.15.3}
+\contentsline {subsection}{\numberline {15.4}Concerning the Stability of Surfaces of Discontinuity between Fluid Masses.}{164}{subsection.15.4}
+\contentsline {subsection}{\numberline {15.5}On the Possibility of the Formation of a Fluid of different Phase within any Homogeneous Fluid.}{177}{subsection.15.5}
+\contentsline {subsection}{\numberline {15.6}On the Possible Formation at the Surface where two different Homogeneous Fluids meet of a Fluid of different Phase from either.}{182}{subsection.15.6}
+\contentsline {subsection}{\numberline {15.7}Substitution of Pressures for Potentials in Fundamental Equation for Surfaces.}{187}{subsection.15.7}
+\contentsline {subsection}{\numberline {15.8}Thermal and Mechanical Relations pertaining to the Extension of a Surface of Discontinuity.}{191}{subsection.15.8}
+\contentsline {subsection}{\numberline {15.9}Impermeable Films.}{196}{subsection.15.9}
+\contentsline {subsection}{\numberline {15.10}The Conditions of Internal Equilibrium for a System of Heterogeneous Fluid Masses without neglect of the Influence of the Surfaces of Discontinuity or of Gravity.}{198}{subsection.15.10}
+\contentsline {subsection}{\numberline {15.11}On the Possibility of the Formation of a New Surface of Discontinuity where several Surfaces of Discontinuity meet.}{207}{subsection.15.11}
+\contentsline {subsection}{\numberline {15.12}The Condition of Stability for Fluids relating to the Formation of a New Phase at a Line in which Three Surfaces of Discontinuity meet.}{209}{subsection.15.12}
+\contentsline {subsection}{\numberline {15.13}The Condition of Stability for Fluids relating to the Forrmation of a New Phase at a Point where the Vertices of Four Different Masses meet.}{215}{subsection.15.13}
+\contentsline {subsection}{\numberline {15.14}Liquid Films.}{218}{subsection.15.14}
+\contentsline {subsection}{\numberline {15.15}Surfaces of Discontinuity between Solids and Fluids.}{229}{subsection.15.15}
+\contentsline {section}{\numberline {16}Modification of the Conditions of Equilibrium by Electromotive Force.---Theory of a Perfect Electro-Chemical Apparatus.}{243}{section.16}
+\contentsline {subsection}{\numberline {16.1}General Properties of a Perfect Electro-chemical Apparatus.}{249}{subsection.16.1}
